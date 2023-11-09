@@ -1,0 +1,23 @@
+{
+    "id": "81f9e14d-7da9-423d-8724-5179ea48f34c",
+    "version": "0.0.1",
+    "requiredApiVersion": "^1.19.0",
+    "iconFile": "icon.png",
+    "author": {
+        "name": "baek",
+        "homepage": "rocketchat.com",
+        "support": "support.rocketchat.com"
+    },
+    "name": "openContextBar",
+    "nameSlug": "opencontextbar",
+    "classFile": "OpenContextBarApp.ts",
+    "description": "Testin UIKit",
+    "implements": [
+        "IUIKitInteractionHandler"
+    ],
+    "permissions": [
+        {
+            "name": "ui.registerButtons"
+        }
+    ]
+}
