@@ -82,6 +82,7 @@ export class OpenContextBarApp extends App implements IUIKitInteractionHandler {
                     RoomTypeFilter.PRIVATE_CHANNEL, 
                     RoomTypeFilter.DIRECT,
                 ],
+                hasOnePermission: ['create-d'],
                 hasAllRoles: ['admin', 'moderator'],
             }
         });
